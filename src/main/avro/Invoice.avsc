@@ -1,0 +1,11 @@
+{
+  "namespace": "com.example.kafkaproducer.collaborators.models",
+  "type": "record",
+  "name": "Invoice",
+  "fields": [
+    {"name": "id", "type": ["null","long"]},
+    {"name": "netAmount", "type": ["null","double"]},
+    {"name": "taxAmount", "type": ["null","double"]},
+    {"name": "totalAmount", "type": ["null","double"]}
+  ]
+}
